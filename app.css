@@ -4,13 +4,7 @@
   font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
-.headerimage {
-  border-bottom:1px solid ;
-  padding: 2rem;
-  margin-bottom: 5px;
-}
 .main {
-  
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, #cf9aff, #95c0ff);
@@ -46,6 +40,7 @@
   margin: 30px 0 20px;
   cursor: pointer;
 }
+
 .input-box {
   position: relative;
   width: 100%;
@@ -58,3 +53,11 @@
   outline: none;
   border-radius: 5px;
 }
+.input-box img{
+  position: absolute;
+  width: 25px;
+  bottom: 25px;
+  right: 15px;
+  cursor:pointer;
+}
+
